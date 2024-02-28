@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>On Air Cue Light</title> 
+        
+        <link rel="stylesheet" type="text/css" href="css/onair.css">  
+        <link rel="stylesheet" type="text/css" href="css/timer.css"> 
+        <script src="js/sendData.js"></script> 
+    </head>
+    <body onLoad="sendData('1')">
+         
+      <h1>On Air Status</h1>
+      <div id="clock">
+        <div class="display">Time Now: 
+          <div class="hours">00</div>:
+          <div class="minutes">00</div>:
+          <div class="seconds">00</div>
+        </div>
+      </div>
+      <script  src="js/clock.js"></script>
+      
+      <div id="status_display">
+        <img id="status_img" src="Img/OffAir.gif" alt="Off Air">
+      </div>
+      
+      <div id ="btn">
+        <button onclick="bigButton()" class="Standby" id="status_btn" >Go STANDBY</button>
+      </div>
+      <div id="app">
+
+      </div>
+      <script src="js/onair.js"></script>
+
+        
+    </body>
+</html>

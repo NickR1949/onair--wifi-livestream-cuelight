@@ -1,0 +1,26 @@
+{
+  "listeners": {
+    "*:80":{
+      "pass": "routes"
+      }      
+    },
+  "routes": [
+      {"match":{
+        "uri": "/lights/*"
+        },
+        "action":{
+        "pass": "applications/python"}
+          },
+      {"action": {"share": "/srv/www/$uri"}
+          }        
+    ],
+  "applications": {
+      "python":{
+        "type": "python3",
+        "path": "/srv/www/application/",
+        "home": "/srv/www/application/venv/",
+        "user": "root",
+        "module": "wsgi"
+       }
+    }
+}
