@@ -9,14 +9,14 @@ Built on a Raspberry Pi Zero 2 W, and Piromi Blinkt!, it\'s controlled by any br
 
 Screen shots of the web interface
 
-![]{media/offair.png}
+![](media/offair.png)
 Green Lights Showing
-![]{media/Standby.png}
+![](media/Standby.png)
 Yellow Lights Showing
 
-![]{media/Countdown.png}
+![](media/Countdown.png)
 Countdown Lights
-![]{media/onair.png}
+![](media/onair.png)
 Red Lights
 
 # Table of contents
@@ -64,7 +64,7 @@ Just load index.html in your favourite browser
 
 [(Back to top)](#table-of-contents)
 
-#Security
+# Security
 This software is only suitable for a network behind a firewall
 
 [(Back to top)](#table-of-contents)
