@@ -1,4 +1,4 @@
-![]{media\Header.png} 
+![]{media/Header.png} 
 # Remote Livestream Cue Light
 Let the presenter know when your livestream is beginning and they need to talk to camera.
 Built on a Raspberry Pi Zero 2 W, and Piromi Blinkt!, it\'s controlled by any browser.
@@ -8,14 +8,14 @@ Built on a Raspberry Pi Zero 2 W, and Piromi Blinkt!, it\'s controlled by any br
 
 Screen shots of the web interface
 
-![]{media\offair.png}
+![]{media/offair.png}
 Green Lights Showing
-![]{media\Standby.png}
+![]{media/Standby.png}
 Yellow Lights Showing
 
-![]{media\Countdown.png}
+![]{media/Countdown.png}
 Countdown Lights
-![]{media\onair.png}
+![]{media/onair.png}
 Red Lights
 
 # Table of contents
@@ -54,8 +54,8 @@ Assemble the hardware
 Set up SD Card with Raspberry Pi OS Lite 64bit Bookworm
 
 Download the software from this Git. into the pi folder on the target system
-chmod +x install.sh
-sudo ./install.sh
+'chmod +x install.sh'
+'sudo ./install.sh'
 
 
 # Usage
