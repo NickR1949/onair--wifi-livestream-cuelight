@@ -1,4 +1,5 @@
-![]{media/Header.png} 
+
+![The completed Cue Light](media/Header.png) 
 # Remote Livestream Cue Light
 Let the presenter know when your livestream is beginning and they need to talk to camera.
 Built on a Raspberry Pi Zero 2 W, and Piromi Blinkt!, it\'s controlled by any browser.
@@ -24,7 +25,7 @@ Red Lights
 
 # Introduction
 This software runs on a Raspberry Pi Zero 2 W and Blinkt!
-It uses [Nginx Unit]{https://unit.nginx.org/} as the web and application server.
+It uses [Nginx Unit](https://unit.nginx.org/) as the web and application server.
 The software consists of javascript that runs on the client and operates the graphics, together with a Python application that runs on the Raspberry Pi server and operates the lights.
 **Note** that Nginx only have supported builds for 64bit Arm processors - see Issue \#1 and so this software cannot run on a 32bit Raspberry Pi Zero W
 
