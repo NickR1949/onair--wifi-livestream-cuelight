@@ -1,5 +1,5 @@
-[]{media\Header.png} 
-#Remote Livestream Cue Light
+![]{media\Header.png} 
+# Remote Livestream Cue Light
 Let the presenter know when your livestream is beginning and they need to talk to camera.
 Built on a Raspberry Pi Zero 2 W, and Piromi Blinkt!, it\'s controlled by any browser.
 ##Note this is for Pi Zero 2W with 64 bit Bookworm - See issue \# 1
@@ -8,21 +8,21 @@ Built on a Raspberry Pi Zero 2 W, and Piromi Blinkt!, it\'s controlled by any br
 
 Screen shots of the web interface
 
-[]{media\offair.png}
+![]{media\offair.png}
 Green Lights Showing
-[]{media\Standby.png}
+![]{media\Standby.png}
 Yellow Lights Showing
 
-[]{media\Countdown.png}
+![]{media\Countdown.png}
 Countdown Lights
-[]{media\onair.png}
+![]{media\onair.png}
 Red Lights
 
 # Table of contents
 
-[TOC]
+![TOC]
 
-#Introduction
+# Introduction
 This software runs on a Raspberry Pi Zero 2 W and Blinkt!
 It uses [Nginx Unit]{https://unit.nginx.org/} as the web and application server.
 The software consists of javascript that runs on the client and operates the graphics, together with a Python application that runs on the Raspberry Pi server and operates the lights.
@@ -32,19 +32,19 @@ The software consists of javascript that runs on the client and operates the gra
 
 This project is built on the following hardware, most of which is obtainable from [The Pi Hut]{https://thepihut.com/} (I have no connection with this company).
 
-![](media/pi zero.png) A Raspberry Pi Zero 2 W with pre-soldered header
+![](media/pizero.png) A Raspberry Pi Zero 2 W with pre-soldered header
 
-![](media/SD Card.png) A Micro SD card (and adaptor if you don't have one)
+![](media/SDCard.png) A Micro SD card (and adaptor if you don't have one)
 
 ![](media/Blinkt.png) Pironi Blinkt! LED strip -- plugs into the Pi header.
 
 ![](media/Case.png) Case - this one was cheap!
 
-![](media/Power Supply.png) Power supply any will do with a micro usb lead, an on/off switch is also useful.
+![](media/PowerSupply.png) Power supply any will do with a micro usb lead, an on/off switch is also useful.
 
 ![](media/Battery.png) Alternatively a rechargeable battery pack, and we have used a Power over Ethernet splitter.
 
-![](media/Zero Essentials Kit.png) If you haven't used a Pi Zero before you will need adaptor leads.
+![](media/ZeroEssentialsKit.png) If you haven't used a Pi Zero before you will need adaptor leads.
 
 # Installation
 
